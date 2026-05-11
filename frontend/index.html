@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Quote generator app</title>
+    <script defer src="quotes.js"></script>
+  </head>
+  <body>
+    <main id="quote-box">
+      <div id="quote-content">
+        <span id="quote-mark">“</span>
+        <p id="quote"></p>
+      </div>
+  
+      <p id="author"></p>
+  
+      <div id="button-container">
+        <button type="button" id="new-quote">New quote</button>
+      </div>
+      <form id="quote-form">
+        <h2>Add a new quote</h2>
+      
+        <label for="quote-input">Quote</label>
+        <input id="quote-input" name="quote" type="text" required />
+      
+        <label for="author-input">Author</label>
+        <input id="author-input" name="author" type="text" required />
+      
+        <button type="submit" id="add-quote">Add quote</button>
+      </form>
+      
+      <p id="form-message"></p>
+    </main>
+  </body>
+</html>
