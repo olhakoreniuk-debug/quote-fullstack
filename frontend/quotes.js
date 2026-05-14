@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:3000/";
+const API_URL = "http://uu5x5ofanafzk717gyuzfoeq.178.105.39.91.sslip.io/";
 
 const quoteElement = document.querySelector("#quote");
 const authorElement = document.querySelector("#author");
